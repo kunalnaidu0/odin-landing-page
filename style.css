@@ -70,7 +70,7 @@ html, body{
     width: 50%;
 }
 
-button{
+.sign-up{
     background-color: #3882f6;
     border-color: #3882f6;
     border-radius: 8px;
@@ -135,4 +135,38 @@ button{
     align-self: flex-end;
     margin: 0;
     font-weight: bolder;
+}
+
+/* call to action */
+.call-action{
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: space-around;
+    margin: 8% 20%;
+    padding: 2%;
+    border-radius: 8px;
+
+}
+
+.call-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.call-title{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #f9faf8;
+
+}
+
+.call-subtext{
+    color: #f9faf8;
+}
+
+.call-button{
+    border-color: #f9faf8;
+    border-style: solid;
+    flex: 0 0 128px;
 }
